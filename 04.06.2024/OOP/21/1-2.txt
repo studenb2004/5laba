@@ -1,0 +1,11 @@
+#1
+Результат выполнения кода будет следующим:
+console.log(employee instanceof Employee) вернёт true, потому что объект employee создан с использованием класса Employee.
+console.log(employee instanceof Student) вернёт false, потому что объект employee не является экземпляром класса Student.
+
+#2
+for (const user of users) {
+  if (user instanceof Employee) {
+    console.log(user.name);
+  }
+}
